@@ -1,0 +1,84 @@
+
+input.ng-touched.ng-invalid{
+    border: 2px solid red;
+}
+
+input.ng-touched.ng-valid{
+    border: 2px solid green;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.err{
+    color: red;
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-size: 12px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box form{
+    background: rgb(93, 216, 93);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box form input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(93, 216, 93);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.box form select{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    box-sizing: border-box;
+}
+
+.box form select option{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.box form button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.box form input:focus{
+    padding-left: 20px;
+}
